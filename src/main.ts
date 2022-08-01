@@ -26,7 +26,7 @@ window.onload = function () {
 if (document.documentElement.clientWidth > 500) {
   window.alert('请使用手机打开，以保证浏览效果')
   const img = document.createElement('img');
-  img.src = '/xymorney.png';
+  img.src = './xymorney.png';
   img.style.position = 'fixed'
   img.style.width = '400px'
   img.style.height = '400px'
